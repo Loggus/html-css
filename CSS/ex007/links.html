@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {font-size: 32px;
+            text-align: center;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: black;
+            color: brown;
+
+        }
+
+        .diferenciado { 
+            background-color: brown;
+            color: azure;
+
+        }
+
+        .principal { 
+            background-color: aliceblue;
+            color: black;
+
+        }
+
+        .secundario { 
+            background-color: black;
+            color:blue ;
+
+        }
+
+        a::after {
+            content: "[link]";
+        }
+
+
+
+        
+        
+ </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.facebook.com/caique.almeida.37/" target="_blanck" class="especial">Facebook</a></li>
+        <li><a href="https://www.youtube.com/channel/UCUN9lhwfMJRxMVuet7Shg0w" target="_blanck" class="diferenciado">Youtube</a></li>
+        <li><a href="https://www.instagram.com/caiq_7/?hl=en" target="_blanck" class="principal">Instagram</a></li>
+        <li><a href="https://www.google.com/search" target="_blank" class="secundario">Google</a></li>
+    </ul>
+</body>
+</html>

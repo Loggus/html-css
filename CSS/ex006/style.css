@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: #7bf3f3;
+    font: normal 16px arial, verdana, serif;
+    color: black;
+}
+
+h1#main {
+    font-size: 4em;
+    color:#888f97 ;
+    text-align: center;
+}
+
+
+h1 {
+    color: #fdfdfd;
+
+}
+
+h2 {
+    color: white
+}
+
+p {
+    text-align: justify;
+}
+
+.basico {
+    font-size: 3em;
+    color: red;
+}
+
+.secundario {
+    font-size: 2em;
+    color: black;
+}
+
+.terciario {
+    font-size: 1em;
+    color: green;
+}

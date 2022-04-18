@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body { background-image:linear-gradient(to left, white, black);
+}
+
+h1 {color: white;
+    text-align: center;
+
+}
+a {color: white;
+text-align: center;}
