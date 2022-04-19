@@ -59,8 +59,6 @@ nav > a:hover {
 
 }
 
-
-
  main {
      background-color: white;
      min-width: 300px;
@@ -114,8 +112,19 @@ main img.pq {
 
 
  iframe {
-    display: block;
-    margin: auto;
+    position: absolute;
+    top: 5%; 
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.vídeo {
+    background-color: rgb(61, 124, 61);
+    margin: 0px -1px 0px -1px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
 }
 
 aside > h2 {
@@ -156,16 +165,6 @@ aside {
     text-align: center;
     margin: auto;
 
-}
-
-div.vídeo {
-    background-color: rgb(61, 124, 61);
-    min-width: 300px;
-    max-width: 1000px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    margin: auto;
 }
 
 strong {
