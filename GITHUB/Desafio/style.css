@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Recursive & family= Sriracha & display=swap');
+
 body {
     margin: 0px;
 }
-header {
+header {    
     padding: 10px;
     background-color: black;
     height: 200px;
@@ -39,14 +40,30 @@ header > h2 > a:hover {
 }
 
 div {
-    font-family: 'Sriracha', cursiva;
+    font-family: 'Recursive', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-div#one {
-    margin-top: 80px;
-    
-    
+div#normal {
+    background-color: white;
+    color: black;
 }
+
+div#imagem {
+    background-color: darkgrey;
+    color: black;
+}
+
+div > p{
+    text-indent: 1cm;
+}
+
+    
+    
+
 
 
     
