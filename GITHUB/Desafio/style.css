@@ -3,29 +3,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Recursive & family= Sriracha & display=swap');
 
-body {
+* {
     margin: 0px;
+    padding: 0px;
+}
+
+html body {
+    min-height: 100vh;
+    
 }
 header {    
     padding: 10px;
-    background-color: black;
-    height: 200px;
+    background-color: black;   
 }
 
 header h1 {
     font-family: 'Abril Fatface', cursive;
     color: white;
-    font-size: 5em;
+    font-size: 9vw;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 0px;
-    margin-top: 40.000px;
+    padding-top: 50px;
 }
 
-header h2 {
+header p {
     color: white;
+    font-size: 25px;
     text-align: center;
-    margin-top: 0px;
+    padding-bottom: 50px;
 
 }
 
@@ -35,16 +40,18 @@ header a {
     font-weight: bolder;
 }
 
-header > h2 > a:hover {
+header > p > a:hover {
     text-decoration: underline;
 }
 
 div {
     font-family: 'Recursive', sans-serif;
-    font-size: 2em;
+    font-size: 3.5vw;
     font-weight: bolder;
+    line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
 div#normal {
@@ -57,8 +64,17 @@ div#imagem {
     color: black;
 }
 
+div#imagem > p {
+    background-color: black;
+    color: aliceblue;
+    display: inline-block;
+    padding: 5px;
+
+
+}
+
 div > p{
-    text-indent: 1cm;
+    
 }
 
     
