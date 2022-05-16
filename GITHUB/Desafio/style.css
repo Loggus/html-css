@@ -54,30 +54,43 @@ div {
     padding-left: 30px;
 }
 
-div#normal {
+div > p {
+    padding-bottom: 2em;
+}
+div.normal {
     background-color: white;
     color: black;
 }
 
-div#imagem {
+div.imagem {
     background-color: darkgrey;
-    color: black;
+    color: rgba(0, 0, 0, 0);
+    box-shadow: inset 4px 4px 17px 0px rgba(0, 0, 0, 0.555);
+    background-attachment: fixed;
 }
 
-div#imagem > p {
-    background-color: black;
+div.imagem > p {
+    background-color: rgba(0, 0, 0, 0.534);
     color: aliceblue;
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
+}
 
+div#img01 {
+    background-image: url(conteúdo/imagens/background001.jpg);
+    background-position: center right;
 
 }
 
-div > p{
-    
+div#img02 {
+    background-image: url(conteúdo/imagens/background002.jpg);
 }
 
-    
+footer {
+    background-color: darkgrey;
+    text-align: center;
+}
     
 
 
